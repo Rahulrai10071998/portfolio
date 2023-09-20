@@ -1,0 +1,635 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+
+}
+
+
+.main_section_1 {
+    width: 100%;
+    background-color: pink;
+    height: 100vh;
+}
+
+.container_div {
+    width: 100%;
+    height: 20vh;
+
+}
+
+.div1 {
+    width: 100%;
+    height: 6vh;
+    background-color: rgb(200, 16, 16);
+    text-align: center;
+    padding-top: 8px;
+    color: white;
+}
+
+.div2 {
+    width: 100%;
+    height: 6vh;
+    background-color: whitesmoke;
+    border: 1px solid rgb(212, 199, 199);
+
+}
+
+.div2 ul li {
+    float: left;
+    margin-inline: 20px;
+    padding-top: 5px;
+}
+
+.div2 p {
+    text-align: center;
+    padding-top: 5px;
+    margin-right: 300px;
+}
+
+.logo {
+    font-size: 18px;
+    padding-top: 1px;
+}
+
+.div3 {
+    width: 100%;
+    height: 8vh;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.div3 ul li {
+    list-style-type: none;
+    display: inline;
+    margin-inline: 12px;
+    padding-top: 5px;
+}
+
+.div3 ul a {
+    color: black;
+
+}
+
+.div3 img {
+    width: 150px;
+    margin-left: 120px;
+}
+
+.div3a {
+    float: right;
+    padding-right: 30px;
+    font-size: 25px;
+    margin-top: -30px;
+}
+
+
+/* Section 2 */
+
+.section2 {
+    width: 100%;
+    height: 100vh;
+}
+
+.s2img {
+    margin-top: 20px;
+    background-image: url(bgimg.png);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.s2contant {
+    padding-top: 200px;
+    padding-left: 50px;
+    line-height: 60px;
+}
+
+.s2contant h1 {
+    font-size: 50px;
+}
+
+.s2contant button {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+
+}
+
+.s2rightdiv {
+    float: right;
+    padding-right: 20px;
+}
+
+/* section 3 */
+.section3 {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.s3div1 {
+    width: 100%;
+    height: 20vh;
+    background-color: white;
+}
+
+.s3div1 h1 {
+    font-size: 35px;
+    padding-top: 55px;
+    padding-left: 30px;
+}
+
+.s3div1 button {
+    float: right;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border: solid rgb(215, 209, 209);
+
+
+}
+
+.s3BL {
+    font-size: 25px;
+}
+
+.s3flexdiv {
+    display: flex;
+    margin-inline: 30px;
+    gap: 30px;
+    padding-top: 70px;
+
+
+}
+
+.s3flexdiv img:hover {
+    width: 310px;
+    height: 430px;
+
+
+}
+
+.s3a {
+
+    margin-top: -90px;
+    padding-left: 20px;
+}
+
+/* section 4 */
+
+
+.section4 {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.s4div1 {
+    width: 100%;
+    height: 20vh;
+    background-color: white;
+    text-align: center;
+}
+
+.s4div1 h1 {
+    font-size: 35px;
+    padding-top: 55px;
+    padding-left: 30px;
+}
+
+.s4flexdiv {
+    display: flex;
+    margin-inline: 20px;
+    gap: 25px;
+    padding-top: 70px;
+
+
+}
+
+/* s4divbg1 */
+
+.s4bg1 {
+    background: url(div4a.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 400px;
+}
+
+.s4bg1:hover {
+    background: url(div4a1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-style: cover;
+    width: 250px;
+    height: 400px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+ 
+}
+
+.s4bg2 {
+    background: url(div4b.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 400px;
+}
+
+.s4bg2:hover {
+    background: url(div4a2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-style: cover;
+    width: 250px;
+    height: 400px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+
+}
+
+/* s4divbg3*/
+.s4bg3 {
+    background: url(div4c.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 400px;
+}
+
+.s4bg3:hover {
+    background: url(div4a3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-style: cover;
+    width: 250px;
+    height: 400px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+
+}
+
+/* s4divbg4 */
+.s4bg4 {
+    background: url(div4d.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 400px;
+}
+
+.s4bg4:hover {
+    background: url(div4a4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-style: cover;
+    width: 250px;
+    height: 400px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+
+}
+
+/* s4divbg5*/
+.s4bg5 {
+    background: url(div4e.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 400px;
+}
+
+.s4bg5:hover {
+    background: url(div4a5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-style: cover;
+    width: 250px;
+    height: 400px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+
+}
+
+.s4a {
+
+    margin-top: 410px;
+    padding-left: 15px;
+}
+
+.iconlogo {
+    line-height: 50px;
+    font-size: 20px;
+    float: right;
+    padding-top: 20px;
+    opacity: 0;
+    width: 250px;
+    height: 400px;
+   
+}
+
+.iconlogo:hover {
+    opacity: 1;
+}
+
+.iconbutton {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    float: right;
+    margin-right: 30px;
+}
+
+.bglogo {
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+/* section 5 */
+
+
+
+.section5 {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.s5div1 {
+    width: 100%;
+    height: 20vh;
+    background-color: white;
+}
+
+.s5div1 h1 {
+    font-size: 35px;
+    padding-top: 55px;
+    padding-left: 30px;
+}
+
+.s5flexdiv {
+    display: flex;
+    margin-inline: 20px;
+    gap: 25px;
+    padding-top: 70px;
+    background-color: white;
+    width: 100%;
+    height: 90vh;
+
+
+}
+
+/* divbg1 */
+.s5bg1 {
+    background: url(div5a.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 400px;
+
+}
+
+.s5bg1:hover {
+    background: url(div5a1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-style: cover;
+    width: 250px;
+    height: 400px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+/* divbg2 */
+.s5bg2 {
+    background: url(div5b.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 400px;
+
+}
+
+.s5bg2:hover {
+    background: url(div5b2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-style: cover;
+    width: 250px;
+    height: 400px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+/* divbg3 */
+
+.s5bg3 {
+    background: url(div5c.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 400px;
+
+}
+
+.s5bg3:hover {
+    background: url(div5c3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-style: cover;
+    width: 250px;
+    height: 400px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+/* divbg4 */
+.s5bg4 {
+    background: url(div5d.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 400px;
+
+}
+
+.s5bg4:hover {
+    background: url(div5d4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-style: cover;
+    width: 250px;
+    height: 400px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+/* divbg5 */
+.s5bg5 {
+    background: url(div5e.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 400px;
+
+}
+
+.s5bg5:hover {
+    background: url(div5e5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-style: cover;
+    width: 250px;
+    height: 400px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+
+.s5a {
+
+    margin-top: 400px;
+    padding-left: 20px;
+}
+
+.s5information {
+    display: flex;
+    width: 100%;
+    height: 25vh;
+
+}
+
+.s5box {
+    display: flex;
+    border: 1px solid rgb(241, 234, 234);
+    margin-inline: 10px;
+    width: 320px;
+    padding-top: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    gap: 10px;
+
+}
+
+.s5box:hover {
+    border: 2px solid rgb(211, 211, 245);
+    width: 325px;
+
+
+}
+
+/* section 6 */
+
+.s6footer {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(247, 246, 246);
+    margin-top: 200px;
+
+}
+
+.s6flex {
+    display: flex;
+
+}
+
+.s6box1 {
+    width: 350px;
+    height: 50vh;
+    padding-top: 30px;
+    border: 1px solid rgb(215, 16, 53);
+    line-height: 40px;
+    padding-left: 40px;
+    padding-top: 90px;
+
+}
+
+.s6box1 h1 {
+    font-size: 20px;
+}
+
+.s6box1 ul li,
+p {
+    color: rgb(72, 69, 69);
+}
+
+.s6box1 :hover {
+    color: #260ceb;
+
+
+}
+
+.email {
+    width: 200px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(197, 192, 192);
+
+}
+
+.s6lastdiv {
+    width: 100%;
+    height: 32vh;
+    border: 1px solid rgb(197, 192, 192);
+
+
+
+}
+
+.s6logo {
+    padding-top: 90px;
+    padding-left: 50px;
+    width: 350px;
+    /* border: 1px solid rgb(34, 32, 32); */
+
+}
+
+.s6h2 {
+    margin-top: -50px;
+    margin-left: 600px;
+    /* border: 1px solid rgb(34, 32, 32); */
+    width: 200px;
+}
+
+.s6icone {
+    margin-top: -20px;
+    margin-left: 1000px;
+    /* border: 1px solid rgb(34, 32, 32); */
+    width: 250px;
+    height: 50px;
+}
+
+.s6icone ul li {
+    list-style-type: none;
+    display: inline-flex;
+    margin-inline: 10px;
+} 
